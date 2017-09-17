@@ -1,7 +1,7 @@
 Circle Animation
 ======
 
-Simple spinning loading animation written in swift
+Simple spinning loading animation written in Swift
 
 ![Demo](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png))
 
