@@ -14,6 +14,8 @@
 		13C808CD1F6DFE840025B266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C808CB1F6DFE840025B266 /* LaunchScreen.storyboard */; };
 		13C808D81F6DFE840025B266 /* LoadingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C808D71F6DFE840025B266 /* LoadingAnimationTests.swift */; };
 		13C808E31F6DFE840025B266 /* LoadingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C808E21F6DFE840025B266 /* LoadingAnimationUITests.swift */; };
+		13C808F51F6E00220025B266 /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C808F41F6E00220025B266 /* CircleAnimationView.swift */; };
+		13C808F71F6E005F0025B266 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C808F61F6E005F0025B266 /* SpinnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		13C808DE1F6DFE840025B266 /* LoadingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C808E21F6DFE840025B266 /* LoadingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationUITests.swift; sourceTree = "<group>"; };
 		13C808E41F6DFE840025B266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C808F41F6E00220025B266 /* CircleAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleAnimationView.swift; sourceTree = "<group>"; };
+		13C808F61F6E005F0025B266 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				13C808C91F6DFE840025B266 /* Assets.xcassets */,
 				13C808CB1F6DFE840025B266 /* LaunchScreen.storyboard */,
 				13C808CE1F6DFE840025B266 /* Info.plist */,
+				13C808F41F6E00220025B266 /* CircleAnimationView.swift */,
+				13C808F61F6E005F0025B266 /* SpinnerView.swift */,
 			);
 			path = LoadingAnimation;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C808C51F6DFE840025B266 /* ViewController.swift in Sources */,
+				13C808F51F6E00220025B266 /* CircleAnimationView.swift in Sources */,
+				13C808F71F6E005F0025B266 /* SpinnerView.swift in Sources */,
 				13C808C31F6DFE840025B266 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
