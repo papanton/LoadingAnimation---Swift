@@ -36,7 +36,6 @@ public class SpinnerView: UIView {
   }
 
   private func setPath() {
-
     shape.path = UIBezierPath(ovalIn: bounds.insetBy(dx: shape.lineWidth / 2,
                                                      dy: shape.lineWidth / 2)).cgPath
     shape.lineCap = kCALineCapRound

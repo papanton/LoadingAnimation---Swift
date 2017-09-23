@@ -24,6 +24,7 @@ class CircleAnimationView: UIView {
   override init(frame: CGRect) {
     super.init(frame: frame)
     self.backgroundColor = .clear
+
     let firstView = SpinnerView(
       frame: self.bounds, strokeStart: 0.0, strokeEnd: 1.0,
       gradientColors: [UIColor.cyan.cgColor,
@@ -85,7 +86,6 @@ class CircleAnimationView: UIView {
                  Pose(1.5, 0.0)]
 
     animate(poses: poses, layer: spinnerViews[1].layer)
-
   }
 
   private func animateThirdView() {
@@ -132,6 +132,7 @@ class CircleAnimationView: UIView {
     animation.repeatCount = Float.infinity
     layer.add(animation, forKey: keyPath)
   }
+
 }
 
 public extension UIColor {
