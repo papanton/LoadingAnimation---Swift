@@ -23,19 +23,19 @@ class CircleAnimationView: UIView {
 
   override init(frame: CGRect) {
     super.init(frame: frame)
-    self.backgroundColor = .clear
+    backgroundColor = .clear
 
     let firstView = SpinnerView(
-      frame: self.bounds, strokeStart: 0.0, strokeEnd: 1.0,
+      frame: bounds, strokeStart: 0.0, strokeEnd: 1.0,
       gradientColors: [UIColor.cyan.cgColor,
                        UIColor(valueRed: 141, green: 255, blue: 240).cgColor])
 
     let secondView = SpinnerView(
-      frame: self.bounds, strokeStart: 0.2, strokeEnd: 0.5,
+      frame: bounds, strokeStart: 0.2, strokeEnd: 0.5,
       gradientColors: [UIColor(valueRed: 0, green: 83, blue: 89).cgColor,
                        UIColor(valueRed: 157, green: 240, blue: 247).cgColor])
     let thirdView = SpinnerView(
-      frame: self.bounds,
+      frame: bounds,
       strokeStart: 0.6, strokeEnd: 0.9,
       gradientColors: [UIColor(valueRed: 0, green: 83, blue: 89).cgColor,
                        UIColor(valueRed: 157, green: 240, blue: 247).cgColor])
@@ -60,7 +60,7 @@ class CircleAnimationView: UIView {
   override func layoutSubviews() {
     super.layoutSubviews()
     for view in spinnerViews {
-      view.frame = self.bounds
+      view.frame = bounds
     }
   }
 

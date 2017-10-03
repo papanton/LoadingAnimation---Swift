@@ -17,8 +17,7 @@ public class SpinnerView: UIView {
   convenience public init(frame: CGRect, strokeStart: CGFloat,
                           strokeEnd: CGFloat, gradientColors: [CGColor]) {
     self.init(frame: frame)
-    self.backgroundColor = .clear
-    shape.fillColor = nil
+    backgroundColor = .clear
     shape.strokeColor = UIColor.black.cgColor
     shape.backgroundColor = UIColor.clear.cgColor
     shape.fillColor = nil
